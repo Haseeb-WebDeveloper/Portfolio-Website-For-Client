@@ -2,9 +2,6 @@ import { useEffect, useRef } from 'react';
 
 function PageReveal() {
 
-
-    
-
     const h2Ref = useRef(null);
     const imgRef = useRef(null);
 

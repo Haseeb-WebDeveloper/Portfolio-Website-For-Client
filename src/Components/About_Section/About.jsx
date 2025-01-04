@@ -13,8 +13,8 @@ function About() {
             ease: "none",
             scrollTrigger: {
                 trigger: ".container",
-                start: "top center", // Start when the top of the container is at the center of the viewport
-                end: "bottom top", // End when the bottom of the container hits the top of the viewport
+                start: "top top", // Start when the top of the container is at the center of the viewport
+                end: "top 10%", // End when the top of the container is at the bottom of the viewport
                 scrub: 0.5, // Reduced scrub for smoother scrolling
                 invalidateOnRefresh: true, // Ensure smooth experience on resize
             }

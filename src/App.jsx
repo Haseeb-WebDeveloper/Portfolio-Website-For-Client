@@ -40,7 +40,6 @@ function App() {
         <PortfolioSection/>
         <CallToAction/>
         <FooterStye2/>
-        <div>helo</div>
       </div>
     </>
   )
